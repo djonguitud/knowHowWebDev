@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #adadad;
+}
+
+.container {
+    max-width: 2500px;
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: (5px - 10vw);
+    text-align: center;
+}
+
+p {
+    font-size: 2vw;
+    text-align: center;
+}
