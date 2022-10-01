@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms theory & practice</title>
+		<link rel="stylesheet" href="./assets/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<main>
+				<h1>Form</h1>
+				<!-- As you can see in the examples, it's common practice to wrap a label and its 
+               widget with a <li> element within a <ul> or <ol> list. <p> and <div> elements are also commonly used. 
+               Lists are recommended for structuring multiple checkboxes or radio buttons.
+
+				   The action attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
+               The method attribute defines which HTTP method to send the data with (usually get or post). -->
+
+				<form action="#" method="post">
+					<ul>
+						<!-- The <li> elements are there to conveniently structure our code and make styling easier  -->
+						<li>
+							<!-- 
+                     With the <label> associated correctly with the <input> via its for attribute 
+                     (which contains the <input> element's id attribute), it is considered best practice to set the for 
+                     attribute to ensure all assistive technologies understand the relationship between label and widget.
+
+                     If there is no label, or if the form control is neither implicitly nor explicitly associated with a label, 
+                     a screen reader will read out something like "Edit text blank", which isn't very helpful at all.
+
+                     There is great benefit to doing this — it associates the label with the form control, enabling mouse, trackpad, 
+                     and touch device users to click on the label to activate the corresponding control, and it also provides an
+                      accessible name for screen readers to read out to their users.
+                     -->
+							<label for="password"><span>Password</span></label>
+							<input type="password" name="strong-password" id="password" required />
+						</li>
+						<li>
+							<button type="submit">Submit</button>
+						</li>
+					</ul>
+				</form>
+			</main>
+		</div>
+		<script src="./assets/script.js"></script>
+	</body>
+</html>

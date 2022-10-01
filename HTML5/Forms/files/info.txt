@@ -1,0 +1,9 @@
+Links about form creation:
+
+https://www.instagram.com/p/CjFbBqbg5pt/?igshid=NzNkNDdiOGI=
+
+
+https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form
+
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
